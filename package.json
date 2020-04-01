@@ -1,7 +1,7 @@
 {
-  "name": "my-react-app",
+  "name": "react-gh-app",
   "version": "0.1.0",
-   "homepage": "http://gitname.github.io/reactapp",
+   "homepage": "http://gitname.github.io/react-gh-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,7 +14,7 @@
     "react-router-dom": "latest"
   },
     "devDependencies": {
-    "gh-pages": "^1.0.0",
+    "gh-app": "^1.0.0",
     "react-scripts": "1.0.7"
   },
   "scripts": {
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"  
+    "deploy": "gh-app -d build"  
   },
   "eslintConfig": {
     "extends": "react-app"
